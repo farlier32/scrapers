@@ -20,6 +20,7 @@ options.add_argument('--enable-chrome-browser-cloud-management')
 #ССЫЛКА НА СТРИМ ТВИЧ
 url = 'https://www.twitch.tv/dawgonosik'
 
+# Укажите свой браузер(всего в селениуме Chrome, Edge, Firefox, Opera
 driver = webdriver.Edge(options=options)
 driver.get(url=url)
 
