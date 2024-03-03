@@ -1,3 +1,7 @@
+# Код собирает ссылки на гифты для нужных вам сервисов с чата твича
+
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.options import Options
